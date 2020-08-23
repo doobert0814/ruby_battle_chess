@@ -21,6 +21,8 @@ GEM
     minitest (5.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -30,6 +32,7 @@ GEM
     rake (13.0.1)
     require_all (3.0.0)
     ruby2_keywords (0.0.2)
+    ruby2d (0.9.4)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -40,8 +43,20 @@ GEM
       sinatra (>= 1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
+    tty-color (0.5.2)
+    tty-cursor (0.7.1)
+    tty-prompt (0.22.0)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.8.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    unicode (0.4.4.4)
+    wisper (2.0.1)
 
 PLATFORMS
   ruby
@@ -51,7 +66,10 @@ DEPENDENCIES
   pry
   rake
   require_all
+  ruby2d (~> 0.9.4)
   sinatra-activerecord
+  tty-prompt
+  unicode (~> 0.4.4.2)
 
 BUNDLED WITH
    2.1.4

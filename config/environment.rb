@@ -1,7 +1,16 @@
 require 'bundler'
 Bundler.require
 
-require_relative '../app/profile.rb'
-require_relative '../lib/command_line_interface.rb'
-require_relative '../app/site.rb'
-require_relative '../app/user.rb'
+require_relative '../lib/chess.rb'
+require_relative '../lib/board.rb'
+# require_relative '../app/site.rb'
+# require_relative '../app/user.rb'
+
+
+
+# namespace : do
+#     desc ""
+#     task : :environment do
+        
+#     end
+# end
