@@ -38,7 +38,7 @@ class board
         @player_1.pawn7.position = [g,7]
         @squares[55] = @player_1.pawn.piece
 
-        #####################Player_1 Pieces############################
+        #####################Player_2 Pieces############################
 
         @player_1.pawn8.position = [g,8]
         @squares[8] = @player_1.pawn.piece
@@ -72,7 +72,7 @@ class board
             end
         end
                 puts "\n", " --+---+---+---+---+---+---+---+---+"
-                puts " 8 | #{@squares[57]} | #{@squares[58]} | #{@squares[59]} | #{@squares[60]} | #{@squares[61]} | #{@squares[62]} | #{@squares[63]} | #{@squares[64]} | => #{@player1.name}"
+                puts " 8 | #{@squares[57]} | #{@squares[58]} | #{@squares[59]} | #{@squares[60]} | #{@squares[61]} | #{@squares[62]} | #{@squares[63]} | #{@squares[64]} | => #{@player_1.name}"
                 puts " --+---+---+---+---+---+---+---+---+"
                 puts " 7 | #{@squares[49]} | #{@squares[50]} | #{@squares[51]} | #{@squares[52]} | #{@squares[53]} | #{@squares[54]} | #{@squares[55]} | #{@squares[56]} |"
                 puts " --+---+---+---+---+---+---+---+---+"
@@ -86,7 +86,7 @@ class board
                 puts " --+---+---+---+---+---+---+---+---+"
                 puts " 2 | #{@squares[9]} | #{@squares[10]} | #{@squares[11]} | #{@squares[12]} | #{@squares[13]} | #{@squares[14]} | #{@squares[15]} | #{@squares[16]} |"
                 puts " --+---+---+---+---+---+---+---+---+"
-                puts " 1 | #{@squares[1]} | #{@squares[2]} | #{@squares[3]} | #{@squares[4]} | #{@squares[5]} | #{@squares[6]} | #{@squares[7]} | #{@squares[8]} | => #{@player2.name}"
+                puts " 1 | #{@squares[1]} | #{@squares[2]} | #{@squares[3]} | #{@squares[4]} | #{@squares[5]} | #{@squares[6]} | #{@squares[7]} | #{@squares[8]} | => #{@player_2.name}"
                 puts " --+---+---+---+---+---+---+---+---+"
                 puts "   | a | b | c | d | e | f | g | h |", "\n"
     end
